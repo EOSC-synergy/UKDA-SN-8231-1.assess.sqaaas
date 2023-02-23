@@ -1,5 +1,5 @@
 services:
-  qc.fair_wheezy-aquamarine-oyster:
+  qc.fair_flaky-carmine-numbat:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.FAIR
       dockerfile: Dockerfile

@@ -12,7 +12,7 @@ sqa_criteria:
     repos:
       this_repo:
         commands:
-        - fair-eva.py -ID http://doi.org/10.5255/UKDA-SN-8231-1 -R oai-pmh -B https://datacatalogue.cessda.eu/oai-pmh/v0/oai
-          --tool_endpoint http://localhost:9090/v1.0/rda/rda_all
-        container: qc.fair_wheezy-aquamarine-oyster
+        - fair-eva.py -ID http://doi.org/10.5255/UKDA-SN-8231-1 -R oai-pmh -B http://digital.csic.es/dspace-oai/request
+          --tool_endpoint https://datacatalogue.cessda.eu/oai-pmh/v0/oai
+        container: qc.fair_flaky-carmine-numbat
 timeout: 5400
