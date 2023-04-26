@@ -14,5 +14,5 @@ sqa_criteria:
         commands:
         - fair-eva.py -ID http://doi.org/10.5255/UKDA-SN-8231-1 -R oai-pmh -B http://digital.csic.es/dspace-oai/request
           --tool_endpoint http://localhost:9090/v1.0/rda/rda_all
-        container: qc.fair_leaky-malachite-lemur
+        container: qc.fair_frumpy-aquamarine-oyster
 timeout: 5400

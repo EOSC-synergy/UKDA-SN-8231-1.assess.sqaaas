@@ -1,8 +1,6 @@
 services:
-  qc.fair_leaky-malachite-lemur:
-    build:
-      context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.FAIR
-      dockerfile: Dockerfile
+  qc.fair_frumpy-aquamarine-oyster:
+    image: eoscsynergy/sqaaas-fair_eva:1.7.10
     volumes:
     - source: ./
       target: /sqaaas-build
