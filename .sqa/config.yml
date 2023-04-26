@@ -2,7 +2,7 @@ config:
   credentials: []
   project_repos:
     github.com/EOSC-synergy/sqaaas-tooling:
-      branch: fix/fair_eva_wait
+      branch: release/1.7.10
       repo: https://github.com/EOSC-synergy/sqaaas-tooling
 environment:
   JPL_DOCKERFORCEBUILD: enabled
@@ -12,7 +12,7 @@ sqa_criteria:
     repos:
       this_repo:
         commands:
-        - fair-eva.py -ID http://doi.org/10.5255/UKDA-SN-8231-1 -R oai-pmh -B https://datacatalogue.cessda.eu/oai-pmh/v0/oai
+        - fair-eva.py -ID http://doi.org/10.5255/UKDA-SN-8231-1 -R oai-pmh -B http://digital.csic.es/dspace-oai/request
           --tool_endpoint http://localhost:9090/v1.0/rda/rda_all
-        container: qc.fair_breezy-maroon-budgerigar
+        container: qc.fair_leaky-malachite-lemur
 timeout: 5400

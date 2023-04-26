@@ -1,5 +1,5 @@
 services:
-  qc.fair_breezy-maroon-budgerigar:
+  qc.fair_leaky-malachite-lemur:
     build:
       context: ./github.com/EOSC-synergy/sqaaas-tooling/QC.FAIR
       dockerfile: Dockerfile
