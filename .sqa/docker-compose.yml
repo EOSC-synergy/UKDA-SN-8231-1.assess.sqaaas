@@ -1,6 +1,6 @@
 services:
-  qc.fair_frumpy-aquamarine-oyster:
-    image: eoscsynergy/sqaaas-fair_eva:1.7.10
+  qc.fair_paltry-mustard-dachsbracke:
+    image: eoscsynergy/sqaaas-fair_eva:1.7.10-alpha
     volumes:
     - source: ./
       target: /sqaaas-build
